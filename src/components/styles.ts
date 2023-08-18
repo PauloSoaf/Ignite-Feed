@@ -1,4 +1,4 @@
-import { Button, Layout, Typography } from "antd";
+import { Button, Divider, Layout, Typography } from "antd";
 import { styled } from "styled-components";
 
 export const AppLayout = styled(Layout)`
@@ -28,4 +28,23 @@ export const UiButton = styled(Button)`
     justify-content: center;
     font-size: 16px;
     margin: 0;
+    font-weight: 600;
+    &:hover {
+        background: #00875F;
+        color: #fff !important;
+        border: 1px solid #00875F !important;
+    }
 `;
+export const UiDivider = styled(Divider)`
+    background: #323238;
+`;
+export const ProfileImg = styled.img`
+  box-sizing: initial;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 8px;
+  border: 4px solid #202024;
+  outline: 2px solid #00B37E;
+  margin-top: calc(0px - 2rem - 6px);
+  margin-bottom: 1rem;
+  `;
