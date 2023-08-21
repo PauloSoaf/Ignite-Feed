@@ -22,6 +22,7 @@ export const BackgroundImg = styled.img`
 export const ProfileName = styled(Typography.Text)`
   font-size: 1rem;
   color: #E1E1E6;
+  font-weight: 600;
   `;
   export const ProfileSubTitle = styled(Typography.Text)`
   font-size: 0.875rem;
