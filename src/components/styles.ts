@@ -40,11 +40,10 @@ export const UiDivider = styled(Divider)`
 `;
 export const ProfileImg = styled.img`
   box-sizing: initial;
-  width: 4rem;
-  height: 4rem;
+  width: 3.125rem;
+  height: 3.125rem;
   border-radius: 8px;
   border: 4px solid #202024;
   outline: 2px solid #00B37E;
-  margin-top: calc(0px - 2rem - 6px);
   margin-bottom: 1rem;
   `;
