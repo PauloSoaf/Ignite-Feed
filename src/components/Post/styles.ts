@@ -1,4 +1,4 @@
-import { Card } from "antd";
+import { Card, Typography } from "antd";
 import { Content } from "antd/es/layout/layout";
 import { styled } from "styled-components";
 
