@@ -6,6 +6,7 @@ export const Feed = () => {
     return (
         <FeedContent>
             <Post />
+            <Post />
         </FeedContent>
     )
 }
