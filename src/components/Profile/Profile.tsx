@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Card, Divider, Typography } from "antd";
 import { BackgroundImg, ProfileCard, ProfileName, ProfileSubTitle } from "./styles";
 import { AiOutlineEdit } from "react-icons/ai";
-import { ProfileImg, UiButton, UiDivider, UiSubTitle, UiTitle } from "../styles";
+import { ProfileImg, SecondaryButton, UiDivider, UiSubTitle, UiTitle } from "../styles";
 import { PencilLine } from "phosphor-react";
 export const Profile = () => {
     return (
@@ -14,7 +14,7 @@ export const Profile = () => {
             <ProfileName>Paulo Amorim</ProfileName>
             <ProfileSubTitle>Software Developer</ProfileSubTitle>
             <UiDivider/> 
-            <UiButton><PencilLine size={20}/> Editar Perfil</UiButton>
+            <SecondaryButton><PencilLine size={20}/> Editar Perfil</SecondaryButton>
         </ProfileCard>
     )
 };

@@ -1,15 +1,14 @@
 import { Col, } from "antd"
 import { ProfileImg, UiSubTitle } from "../styles"
-import { Content } from "antd/es/layout/layout"
 import { AuthorHeaderContainer, StyledCol, StyledRow, Time } from "./styles"
 import { ProfileName } from "../Profile/styles"
 
-export const AuthorHeader = () => {
+export const AuthorHeader = ({profileImg}) => {
   return (
     <AuthorHeaderContainer>
     <StyledRow>
       <Col>
-      <ProfileImg src="https://github.com/pauloSoaf.png"/>
+      <ProfileImg src={profileImg}/>
       </Col>
       <StyledCol>
       <ProfileName>Paulo Amorim</ProfileName>
